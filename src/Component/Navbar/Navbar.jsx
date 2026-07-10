@@ -12,7 +12,7 @@ const Navbar = async() => {
    const session = await auth.api.getSession({
         headers: await headers()
     })
-    console.log(session)
+   
     const link=<>
   <Navlink href={'/'}>Home</Navlink>
   <Navlink href={'/books'}>Books</Navlink>

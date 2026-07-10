@@ -27,21 +27,30 @@ const page = () => {
     
 });
 if (error) {
-      toast.error(error.message || 'Sign in failed');
+      toast.error(error.message || 'Login in failed');
       return;
     }
 
-    toast.success('Signed in successfully!');
-    router.push('/'); // homepage-এ redirect
+    toast.success('Login in successfully!');
+    router.push('/'); 
     router.refresh(); 
     console.log(data)}
-
+const signInGoogle = async () => {
+  const data = await authClient.signIn.social({
+    provider: "google",
+  });
+}
+const signInGit = async () => {
+    const data = await authClient.signIn.social({
+        provider: "github"
+    })
+}
   console.log(watch("example"))
     return (
         <form onSubmit={handleSubmit(onSubmit)} className="bg-white">
         
-    <div className="hero bg-base-200 min-h-screen">
-  <div className="hero-content flex-col lg:flex-row-reverse">
+    <div className="hero bg-base-200 min-h-screen ">
+  <div className="hero-content flex-col lg:flex-row-reverse w-[600px]">
     
     <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
       <div className="card-body text-black">
@@ -52,8 +61,10 @@ if (error) {
           <label className="label">Password</label>
           <input type="password"  {...register("password")} className="input" placeholder="Password" />
           <div><Link href={'/signin'} className="link link-hover">Not a user? click here ...</Link></div>
-          <button type="submit" className="btn btn-neutral mt-4">Sign in</button>
+          <button type="submit" className="btn btn-neutral mt-4">Login in</button>
         </fieldset>
+         <button onClick={signInGoogle} className="btn">Login with Google</button>
+        <button onClick={signInGit} className="btn">Login with GitHub</button>
       </div>
     </div>
   </div>

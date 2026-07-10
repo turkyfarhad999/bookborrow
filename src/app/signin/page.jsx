@@ -1,13 +1,16 @@
 'use client';
 import { authClient } from "@/lib/auth-client";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useForm } from "react-hook-form";
+import { toast } from "react-toastify";
 
 
 
   
 
 const page = () => {
+     const router=useRouter()
     const {
     register,
     handleSubmit,
@@ -20,11 +23,28 @@ const page = () => {
     name:  data.name,
     email: data.email,
     password: data.password,
-   
+  
    
 });
-    console.log(data)}
-
+     if(error){
+        toast.error(error.message)
+     }
+     toast.success('Signin in successfully!');
+      await authClient.signOut();
+  router.push('/login');
+    
+    router.refresh();
+}
+    const signInGoogle = async () => {
+  const data = await authClient.signIn.social({
+    provider: "google",
+  });
+}
+const signInGit = async () => {
+    const data = await authClient.signIn.social({
+        provider: "github"
+    })
+}
   console.log(watch("example"))
     return (
        <form onSubmit={handleSubmit(onSubmit)} className="bg-white">
@@ -44,6 +64,8 @@ const page = () => {
           <div><Link href={'/login'} className="link link-hover">Already a user? click here ...</Link></div>
           <button type="submit" className="btn btn-neutral mt-4">Sign in</button>
         </fieldset>
+        <button onClick={signInGoogle} className="btn">signin with Google</button>
+        <button onClick={signInGit} className="btn">signin with GitHub</button>
       </div>
     </div>
   </div>
