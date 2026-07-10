@@ -22,6 +22,7 @@ const page = () => {
     const { data:res, error } = await authClient.signUp.email({
     name:  data.name,
     email: data.email,
+    image:data.image,
     password: data.password,
   
    
@@ -59,6 +60,8 @@ const signInGit = async () => {
           <input type="text" {...register("name")} className="input" placeholder="name" />
           <label className="label">Email</label>
           <input type="email"  {...register("email")} className="input" placeholder="Email" />
+          <label className="label">Image link</label>
+          <input type="text"  {...register("image")} className="input" placeholder="Email" />
           <label className="label">Password</label>
           <input type="password"  {...register("password")} className="input" placeholder="Password" />
           <div><Link href={'/login'} className="link link-hover">Already a user? click here ...</Link></div>
