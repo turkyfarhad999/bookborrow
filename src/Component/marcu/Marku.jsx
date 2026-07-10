@@ -26,7 +26,7 @@ const dataset=[
 const Marku = () => {
     return (
         <div className="flex justify-center items-center container mx-auto bg-gray-100 rounded-3xl my-4 px-3">
-            <button className="bg-red-400 btn mx-1 text-white font-semibold"> Offers </button> 
+            <button className="bg-black text-white btn mx-1 font-semibold"> Offers </button> 
           <Marquee className=" py-4 my-3.5 px-6 text-gray-500  font-semibold">
            
            {dataset.map(i=><span className="mx-2">{i.text}</span>)}

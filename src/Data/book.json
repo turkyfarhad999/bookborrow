@@ -1,110 +1,110 @@
 [
   {
     "id": 1,
-    "title": "The Silent Forest",
-    "author": "Emma Brooks",
-    "description": "A mysterious journey through an ancient forest filled with hidden secrets and unexpected friendships.",
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "description": "A philosophical novel about a shepherd named Santiago who dreams of discovering his personal legend.",
     "category": "Story",
-    "available_quantity": 12,
-    "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794"
+    "available_quantity": 15,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780061122415-L.jpg"
   },
   {
     "id": 2,
-    "title": "Mastering JavaScript",
-    "author": "Daniel Carter",
-    "description": "A practical guide to modern JavaScript, covering ES6+, asynchronous programming, and best practices.",
-    "category": "Tech",
-    "available_quantity": 8,
-    "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353"
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "description": "A practical guide to building good habits, breaking bad ones, and improving every day.",
+    "category": "Science",
+    "available_quantity": 10,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780735211292-L.jpg"
   },
   {
     "id": 3,
-    "title": "Journey to the Stars",
-    "author": "Sophia Green",
-    "description": "Explore the wonders of the universe, from distant galaxies to black holes and beyond.",
-    "category": "Science",
-    "available_quantity": 10,
-    "image_url": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa"
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "description": "A handbook of agile software craftsmanship and best coding practices.",
+    "category": "Tech",
+    "available_quantity": 8,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780132350884-L.jpg"
   },
   {
     "id": 4,
-    "title": "The Hidden Key",
-    "author": "Michael Turner",
-    "description": "An adventurous tale of courage, mystery, and discovering long-lost treasures.",
-    "category": "Story",
-    "available_quantity": 15,
-    "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d"
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt & David Thomas",
+    "description": "Classic software engineering advice for becoming a better programmer.",
+    "category": "Tech",
+    "available_quantity": 7,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780135957059-L.jpg"
   },
   {
     "id": 5,
-    "title": "Python for Everyone",
-    "author": "Olivia Harris",
-    "description": "Learn Python programming from the ground up with real-world projects and examples.",
+    "title": "Eloquent JavaScript",
+    "author": "Marijn Haverbeke",
+    "description": "A modern introduction to JavaScript programming and web development.",
     "category": "Tech",
-    "available_quantity": 7,
-    "image_url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97"
+    "available_quantity": 9,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9781593279509-L.jpg"
   },
   {
     "id": 6,
-    "title": "Inside the Human Body",
-    "author": "Dr. Alan Moore",
-    "description": "An engaging introduction to human anatomy, physiology, and the body's amazing systems.",
-    "category": "Science",
-    "available_quantity": 9,
-    "image_url": "https://images.unsplash.com/photo-1532187643603-ba119ca4109e"
+    "title": "The C Programming Language",
+    "author": "Brian W. Kernighan & Dennis M. Ritchie",
+    "description": "The classic book that introduced the C programming language.",
+    "category": "Tech",
+    "available_quantity": 6,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780131103627-L.jpg"
   },
   {
     "id": 7,
-    "title": "Whispers of the Ocean",
-    "author": "Lily Anderson",
-    "description": "A heartwarming story about hope, resilience, and life by the sea.",
-    "category": "Story",
-    "available_quantity": 14,
-    "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+    "title": "A Brief History of Time",
+    "author": "Stephen Hawking",
+    "description": "An accessible explanation of cosmology, black holes, and the origins of the universe.",
+    "category": "Science",
+    "available_quantity": 12,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780553380163-L.jpg"
   },
   {
     "id": 8,
-    "title": "React in Action",
-    "author": "Nathan Cooper",
-    "description": "Build modern, interactive web applications using React and its ecosystem.",
-    "category": "Tech",
-    "available_quantity": 6,
-    "image_url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+    "title": "The Selfish Gene",
+    "author": "Richard Dawkins",
+    "description": "An influential book explaining evolution through the concept of the gene.",
+    "category": "Science",
+    "available_quantity": 5,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780199291151-L.jpg"
   },
   {
     "id": 9,
-    "title": "Quantum Frontiers",
-    "author": "Rachel Kim",
-    "description": "A beginner-friendly exploration of quantum mechanics and its revolutionary ideas.",
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "description": "A fascinating look at the history and evolution of Homo sapiens.",
     "category": "Science",
     "available_quantity": 11,
-    "image_url": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564"
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780062316097-L.jpg"
   },
   {
     "id": 10,
-    "title": "The Last Lantern",
-    "author": "James Collins",
-    "description": "A captivating fantasy adventure where one lantern holds the fate of an entire kingdom.",
+    "title": "Harry Potter and the Philosopher's Stone",
+    "author": "J. K. Rowling",
+    "description": "The first novel in the Harry Potter series, introducing the young wizard and Hogwarts.",
     "category": "Story",
-    "available_quantity": 13,
-    "image_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da"
+    "available_quantity": 14,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780747532699-L.jpg"
   },
   {
     "id": 11,
-    "title": "Database Design Essentials",
-    "author": "Grace Miller",
-    "description": "Learn relational database design, normalization, SQL, and performance optimization.",
-    "category": "Tech",
-    "available_quantity": 5,
-    "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d"
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "description": "A timeless novel exploring justice, racism, and morality in the American South.",
+    "category": "Story",
+    "available_quantity": 9,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780061120084-L.jpg"
   },
   {
     "id": 12,
-    "title": "The Science of Climate",
-    "author": "Henry Walker",
-    "description": "Understand climate change, Earth's ecosystems, and the science behind global weather patterns.",
-    "category": "Science",
-    "available_quantity": 10,
-    "image_url": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e"
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "description": "A classic novel depicting wealth, ambition, and the American Dream in the 1920s.",
+    "category": "Story",
+    "available_quantity": 13,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780743273565-L.jpg"
   }
 ]

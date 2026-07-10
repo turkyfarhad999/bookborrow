@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Ayesha Rahman",
+    "role": "Regular Reader",
+    "quote": "এই বই আমার জীবন বদলে দিয়েছে। The Alchemist পড়ার পর নিজের স্বপ্নগুলোকে নতুন করে চিনতে পেরেছি।",
+    "avatar": "https://randomuser.me/api/portraits/women/44.jpg",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "name": "Tanvir Ahmed",
+    "role": "Book Club Member",
+    "quote": "এই platform থেকে বই খুঁজে পাওয়া অনেক সহজ হয়ে গেছে। Category অনুযায়ী browse করার সিস্টেমটা দারুণ লাগে।",
+    "avatar": "https://randomuser.me/api/portraits/men/32.jpg",
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "name": "Nusrat Jahan",
+    "role": "Literature Student",
+    "quote": "প্রতি সপ্তাহে নতুন নতুন বই আবিষ্কার করি এখানে। Recommendation গুলো সত্যিই আমার পছন্দের সাথে মিলে যায়।",
+    "avatar": "https://randomuser.me/api/portraits/women/68.jpg",
+    "rating": 4
+  },
+  {
+    "id": 4,
+    "name": "Rakibul Islam",
+    "role": "Casual Reader",
+    "quote": "দারুণ collection! বিশেষ করে fiction category-টা আমার সবচেয়ে প্রিয়। প্রতিদিনই কিছু না কিছু নতুন খুঁজে পাই।",
+    "avatar": "https://randomuser.me/api/portraits/men/76.jpg",
+    "rating": 5
+  },
+  {
+    "id": 5,
+    "name": "Farzana Akter",
+    "role": "Book Blogger",
+    "quote": "UI টা এত clean আর simple যে বই খুঁজতে কোনো ঝামেলাই হয় না। আমার ব্লগেও এই সাইটটার কথা লিখেছি।",
+    "avatar": "https://randomuser.me/api/portraits/women/22.jpg",
+    "rating": 5
+  },
+  {
+    "id": 6,
+    "name": "Mahmudul Hasan",
+    "role": "University Student",
+    "quote": "পড়াশোনার ফাঁকে হালকা কিছু পড়তে চাইলে এইখানে চলে আসি। বইয়ের variety সত্যিই ভালো।",
+    "avatar": "https://randomuser.me/api/portraits/men/54.jpg",
+    "rating": 4
+  }
+]
