@@ -10,7 +10,7 @@ import React from 'react';
 //     "rating": 5
 //   },
 const Reviewsolo = ({rev}) => {
-    console.log(rev)
+    // console.log(rev)
     return (
         <div className='flex py-10 px-5 bg-base-200 rounded-3xl'>
           <Image 
