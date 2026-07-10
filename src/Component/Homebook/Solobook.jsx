@@ -13,7 +13,7 @@ import React from 'react';
 const Solobook = ({book}) => {
     console.log(book)
     return (
-        <div className='mx-auto h-full'>
+        <div className='mx-auto h-full aura aura-dual'>
            <div className="card bg-base-100 w-90 shadow-sm h-full flex flex flex-col">
   <figure>
     <Image

@@ -47,9 +47,13 @@ export default function Homepage() {
     <h2 className="text-9xl font-bold text-center">
       Find Your Next Read
     </h2>
-    <Link href="/books" className="btn text-2xl px-7 py-8 rounded-3xl">
-      Browse Now
+    
+      <Link href="/books" className="btn text-2xl px-7 py-8 rounded-3xl ">
+     
+       Browse Now
+    
     </Link>
+    
   </div>
 </div>
           </div>

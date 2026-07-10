@@ -1,5 +1,7 @@
 import Homepage from "@/Component/Homebanner/Homepage";
 import Homebook from "@/Component/Homebook/Homebook";
+import Readstat from "@/Component/Readstatus/Readstat";
+import Review from "@/Component/Review/Review";
 import Image from "next/image";
 
 export default function Home() {
@@ -7,6 +9,8 @@ export default function Home() {
     <div className="flex flex-col  font-sans bg-white text-black">
      <Homepage></Homepage>
      <Homebook></Homebook>
+     <Review></Review>
+     <Readstat></Readstat>
     </div>
   );
 }
