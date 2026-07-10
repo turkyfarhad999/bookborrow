@@ -3,8 +3,16 @@ import React from 'react';
 import Navlink from './Navlink';
 import Image from 'next/image';
 import logo from '@/assets/logobooktop.png'
+import { auth } from '@/lib/auth';
+import { headers } from 'next/headers';
+import { authClient } from '@/lib/auth-client';
+import Logoutbtn from '../logoutbtn/Logoutbtn';
 
-const Navbar = () => {
+const Navbar = async() => {
+   const session = await auth.api.getSession({
+        headers: await headers()
+    })
+    console.log(session)
     const link=<>
   <Navlink href={'/'}>Home</Navlink>
   <Navlink href={'/books'}>Books</Navlink>
@@ -39,8 +47,12 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end space-x-2 ">
-    <p className='text-black'>Wekcome turky</p>
-    <a className="btn">Button</a>
+    <p className='text-black'>Welcome <span className='font-semibold'> {session&& `${session.user.name}`}</span></p>
+    {session ? (
+  <Logoutbtn></Logoutbtn>
+) : (
+  <Link href="/login" className="btn">Login</Link>
+)}
   </div>
 </div>
         </div>
