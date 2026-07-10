@@ -21,7 +21,7 @@ const BookfromBook = ({book}) => {
     </h2>
     <p className='text-gray-500'>{book.description}</p>
     <div className="card-actions justify-end">
-     <Link className='btn bg-black text-white' href={'#'}>View Details</Link>
+     <Link className='btn bg-black text-white' href={`/book/${book.id}`}>View Details</Link>
     </div>
   </div>
 </div> 
