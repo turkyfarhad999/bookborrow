@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📚 BookBorrow
 
-## Getting Started
+A modern book discovery & borrowing platform built with Next.js — browse books, track your reading status, leave reviews, and manage your reader profile.
 
-First, run the development server:
+**🔗 Live Demo:** [bookborrow-blue.vercel.app](https://bookborrow-blue.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 📖 Overview
+
+BookBorrow is a full-stack Next.js application where readers can explore a curated book collection, view detailed book pages, track what they're reading, and share reviews with the community. It features a fully authenticated experience powered by Better Auth, an animated hero banner, and live count-up stats showcasing platform activity.
+
+## ✨ Features
+
+- 🎠 Swiper.js powered hero banner with autoplay & navigation
+- 📊 Animated count-up statistics (books read, registered readers, collection size, satisfaction rate) triggered on scroll via Intersection Observer
+- 🔐 Full authentication flow (Sign up / Login / Logout) using **Better Auth** + MongoDB adapter
+- 📚 Browse all books & view individual book detail pages
+- ✅ Reading status tracker per book
+- ⭐ Book review system
+- 👤 User profile page
+- 🎞️ Marquee-style scrolling section (react-fast-marquee)
+- 🔔 Toast notifications (react-toastify)
+- 📱 Fully responsive UI with Tailwind CSS + DaisyUI
+
+## 🛠️ Tech Stack
+
+| Category | Tech |
+|---|---|
+| Framework | Next.js 16 (App Router) + React 19 |
+| Styling | Tailwind CSS 4 + DaisyUI |
+| Auth | Better Auth + MongoDB Adapter |
+| Database | MongoDB |
+| Forms | React Hook Form |
+| Carousel | Swiper.js |
+| Notifications | react-toastify |
+| Deployment | Vercel |
+
+## 📂 Project Structure
+
+```
+bookborrow/
+├── public/                    # Book cover images
+├── src/
+│   ├── app/
+│   │   ├── api/auth/          # Better Auth API routes
+│   │   ├── book/[id]/         # Dynamic book detail page
+│   │   ├── books/             # All books listing
+│   │   ├── login/ signin/     # Auth pages
+│   │   ├── profile/           # User profile
+│   │   └── page.js            # Home page
+│   ├── Component/
+│   │   ├── Homebanner/        # Swiper hero banner
+│   │   ├── Homebook/          # Book cards
+│   │   ├── Readstatus/        # Animated stats counter
+│   │   ├── Review/            # Book review system
+│   │   ├── Navbar/ Footer/
+│   │   └── logoutbtn/
+│   ├── Data/                  # Static/seed data
+│   └── lib/                   # Utilities & auth config
+└── package.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Getting Started
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+\`\`\`bash
+# Clone the repo
+git clone https://github.com/turkyfarhad999/bookborrow.git
+cd bookborrow
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Install dependencies
+npm install
 
-## Learn More
+# Set up environment variables
+# Create a .env.local file with your MongoDB URI & Better Auth secrets
 
-To learn more about Next.js, take a look at the following resources:
+# Run locally
+npm run dev
+\`\`\`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔮 Future Improvements
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Actual book borrowing/return workflow with due dates
+- Search & filter by genre/author
+- Admin dashboard for managing the book collection
+- Wishlist / bookmarking feature
 
-## Deploy on Vercel
+## 👤 Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Turky Farhad**
+CSE, RUET | MERN Stack Developer
+[GitHub](https://github.com/turkyfarhad999)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+⭐ If you liked this project, consider giving it a star!
